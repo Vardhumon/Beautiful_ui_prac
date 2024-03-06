@@ -9,7 +9,7 @@ class ListViewTile extends StatelessWidget {
     return Container(
       margin: EdgeInsets.all(8),
       padding: EdgeInsets.all(12),
-      width: 120,
+      width: 125,
       decoration: BoxDecoration(
         color: Color.fromRGBO(53, 53, 55, 1),
         borderRadius: BorderRadius.circular(20)

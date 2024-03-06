@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
         body: Column(
           children: [
             Container(
-              height: 280,
+              height: 260,
               decoration: BoxDecoration(
                 color: Color.fromRGBO(23, 24, 28, 1),
                 borderRadius: BorderRadius.only(
@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
                     child: Row(
                       children: [
                         Padding(
-                          padding: EdgeInsets.all(10),
+                          padding: EdgeInsets.all(9),
                           child: Row(
                             children: [
                               Padding(padding: EdgeInsets.only(right: 10), child: Icon(Icons.add_circle_rounded, color: Colors.white, size: 50,),),
@@ -99,6 +99,7 @@ class HomePage extends StatelessWidget {
                                     towhat: "Xbox 360",
                                     location: 6,
                                     howmuch: 1,
+                                    
                         ),
                         HomeCard(
                                     title: "Sneakers",
@@ -106,6 +107,8 @@ class HomePage extends StatelessWidget {
                                     towhat: "Table",
                                     location: 4,
                                     howmuch: 3,
+                                    
+
                         ),
                         HomeCard(
                                     title: "Watches",
@@ -113,6 +116,8 @@ class HomePage extends StatelessWidget {
                                     towhat: "Suit",
                                     location: 5,
                                     howmuch: 1,
+                                    
+
                         ),
                         // Add more cards here
                       ],
@@ -125,6 +130,8 @@ class HomePage extends StatelessWidget {
                                     towhat: "Tablet",
                                     location: 1,
                                     howmuch: 3,
+                                    
+
                         ),
                         HomeCard(
                                     title: "Clock",
@@ -132,6 +139,8 @@ class HomePage extends StatelessWidget {
                                     towhat: "sneakers",
                                     location: 2,
                                     howmuch: 3,
+                                    
+
                         ),
                         HomeCard(
                                     title: "Nike Shoes",
@@ -139,6 +148,8 @@ class HomePage extends StatelessWidget {
                                     towhat: "Books",
                                     location: 6,
                                     howmuch: 1,
+                                    
+
                         ),
                         // Add more cards here
                       ],
